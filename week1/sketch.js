@@ -22,7 +22,7 @@ function setup() {
   // Seed with millis() so each page load gives a different quote.
   randomSeed(millis());
   textSize(32);
-  fill(10, 255, 10);
+  fill(10, 0, 10);
   // calls the function to pick a quote
   pickQuote();
 }
@@ -33,7 +33,7 @@ function pickQuote() {
 }
 
 function draw() {
-  background(255, 20, 250); // set the background color
+  background(20, 20, 250); // set the background color
   drawQuote();  // draw the quote on screen
 }
 
