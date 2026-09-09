@@ -60,15 +60,7 @@ To start a new paragraph, leave an empty line between two lines of text.
 
 This is a new paragraph.
 
-**In reading Matthew Fuller’s Software Studies: A Lexicon and Friedrich Kittler’s chapter on "Code", I view code not merely as a technical utility, but as a dynamic medium of thought and artistic expression
-. Kittler outlines how code evolved from historical systems of encryption and legal codification into finite sequences of symbols that actively encode the physical world and execute actions
-. To me, code is a structured language that translates conceptual logic into interactive forms
-.
-Code works for me when it serves as a creative tool for experimentation, allowing me to build dynamic visual systems and explore aesthetic possibilities that go beyond static media
-. However, code can also work against me when its rigid formalization and strict syntax enforce unyielding constraints, making simple mistakes feel opaque or limiting artistic fluidity
-. As Fuller notes, software can feel like a social relation made systematic and unalterable if we do not critically engage with it
-.
-This semester, as a first-week master's student in creative coding, I am excited to push past these technical barriers and discover the joy of programming
-. I look forward to moving from basic scripting in p5.js to experimenting with generative art, interactive visual design, and procedural thinking
-. I want to embrace the process of trial and error to unlock new conceptual dimensions in my artistic practice
-.**
+**To me, code is much more than technical logic—it is a creative canvas for artistic ideas
+. Reading Kittler and Fuller shows how code relies on finite symbols and structured rules to drive interactive systems
+. Code works for me when it allows me to build dynamic visual art, though it can work against me when strict syntax or unexpected errors feel frustrating
+. As a first-week creative coding student, I'm eager to experiment, learn p5.js, and enjoy the creative process this semester!**
