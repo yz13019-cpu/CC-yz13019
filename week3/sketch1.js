@@ -22,7 +22,7 @@ function draw() {
             stroke(360 * (y/10), 200, 100);
             translate(x * 75 + 25, y * 75 + 25); 
             rotate(yRotation + mouseRotation); 
-            scale( mouseScale); 
+            scale(scaleAmount * mouseScale); 
             line(-25, -20, 20, -28);
             pop();  
         }  
