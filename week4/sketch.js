@@ -48,10 +48,10 @@ function draw() {
       noiseVal += inc;
     }
   }
-
+}
   if (doExport) {
     endRecordSvg();
     doExport = false;
   }
-}
+
 }
