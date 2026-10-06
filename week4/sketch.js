@@ -23,7 +23,7 @@ function drawBasicForm(x, y, rot) {
   push();
   translate(x, y);
   rotate(rot);
-  quad(-50, 50, 50, -50, -50, -50, 50, 50);
+  quad(-20, 20, 20, -20, -20, -20, 20, 20);
   pop();
 }
 
@@ -34,24 +34,27 @@ function draw() {
 
   background(255);
   noFill();
+  stroke(0);
   noiseSeed(seed);
   randomSeed(seed);
 
-  let noiseVal = random();
-  let inc = 0.01;
+  let noiseScale = 0.015;
+  let gridSize = 20;
 
-  for (let y = 30; y < height; y += 60) {
-    for (let x = 30; x < width; x += 60) { {
-      let rot = map(noise(noiseVal), 0, 1, -1, 1);
-      let scaleValue = map(noise(noiseVal + 100), 0, 1, 0.1, 1.0);
-      drawBasicForm(x, y, rot);
-      noiseVal += inc;
+  for (let y = 20; y < height - 20; y += gridSize) {
+    for (let x = 20; x < width - 20; x += gridSize) {
+      let n = noise(x * noiseScale, y * noiseScale);
+      let threshold = 0.55;
+
+      if (n > threshold) {
+        let rot = map(n, 0.55, 1, -0.5, 0.5);
+        drawBasicForm(x, y, rot);
+      }
     }
   }
-}
+
   if (doExport) {
     endRecordSvg();
     doExport = false;
   }
-
 }
