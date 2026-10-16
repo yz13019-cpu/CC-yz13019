@@ -1,0 +1,25 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+}
+
+#clock-time {
+    position: fixed;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    z-index: 10;
+
+    color: white;
+    font-size: 24px;
+    font-family: monospace;
+    letter-spacing: 4px;
+
+    pointer-events: none;
+}
