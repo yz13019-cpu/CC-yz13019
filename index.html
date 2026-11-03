@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +6,34 @@
   <title>Yuwei Zhang — Creative Coding</title>
 
   <link rel="stylesheet" href="./style.css">
+  <style>
+    .project-open {
+      position: absolute;
+      inset: 0;
+    }
+
+    .project-note {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      z-index: 1;
+      color: inherit;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .project:focus-within {
+      outline: 3px solid var(--accent);
+      outline-offset: 4px;
+    }
+
+    @media (max-width: 600px) {
+      .project-note { top: 12px; right: 12px; font-size: 8px; }
+    }
+  </style>
 </head>
 
 <body>
@@ -36,69 +63,96 @@
 
     <section class="projects" aria-label="Weekly assignments">
 
-      <a class="project" href="./week1/index.html">
+      <article class="project">
+        <a class="project-open" href="./week1/index.html" aria-label="Open 01 / WEEK 01 project"></a>
         <span class="project-number">01 / WEEK 01</span>
         <span class="project-title">Creative<br>Coding Is...</span>
         <span class="project-footer">
           EXPLORE <span class="arrow">↗</span>
         </span>
-      </a>
+        <a class="project-note" href="./week1/README.md" aria-label="Week 01 notes">NOTE</a>
+      </article>
 
-      <a class="project" href="./week2/index.html">
+      <article class="project">
+        <a class="project-open" href="./week2/index.html" aria-label="Open 02 / WEEK 02 project"></a>
         <span class="project-number">02 / WEEK 02</span>
         <span class="project-title">Generative<br>Drawing</span>
         <span class="project-footer">
           EXPLORE <span class="arrow">↗</span>
         </span>
-      </a>
+        <a class="project-note" href="./week2/README.md" aria-label="Week 02 notes">NOTE</a>
+      </article>
 
-      <a class="project" href="./week3/index1.html">
+      <article class="project">
+        <a class="project-open" href="./week3/index1.html" aria-label="Open 03 / WEEK 03 project"></a>
         <span class="project-number">03 / WEEK 03</span>
         <span class="project-title">Iteration<br>Generation I</span>
         <span class="project-footer">
           VISION 01 <span class="arrow">↗</span>
         </span>
-      </a>
+        <a class="project-note" href="./week3/README.md" aria-label="Week 03 notes">NOTE</a>
+      </article>
 
-      <a class="project" href="./week3/index2.html">
+      <article class="project">
+        <a class="project-open" href="./week3/index2.html" aria-label="Open 03.2 / WEEK 03 project"></a>
         <span class="project-number">03.2 / WEEK 03</span>
         <span class="project-title">Iteration<br>Generation I</span>
         <span class="project-footer">
           VISION 02 <span class="arrow">↗</span>
         </span>
-      </a>
+        <a class="project-note" href="./week3/README.md" aria-label="Week 03 notes">NOTE</a>
+      </article>
 
-      <a class="project" href="./week3/index3.html">
+      <article class="project">
+        <a class="project-open" href="./week3/index3.html" aria-label="Open 03.3 / WEEK 03 project"></a>
         <span class="project-number">03.3 / WEEK 03</span>
         <span class="project-title">Iteration<br>Generation I</span>
         <span class="project-footer">
           VISION 03 <span class="arrow">↗</span>
         </span>
-      </a>
+        <a class="project-note" href="./week3/README.md" aria-label="Week 03 notes">NOTE</a>
+      </article>
 
-      <a class="project" href="./week4/index.html">
+      <article class="project">
+        <a class="project-open" href="./week4/index.html" aria-label="Open 04 / WEEK 04 project"></a>
         <span class="project-number">04 / WEEK 04</span>
         <span class="project-title">Iteration<br>Generation II</span>
         <span class="project-footer">
           EXPLORE <span class="arrow">↗</span>
         </span>
-      </a>
+        <a class="project-note" href="./week4/README.md" aria-label="Week 04 notes">NOTE</a>
+      </article>
 
-      <a class="project" href="./week5/index.html">
+      <article class="project">
+        <a class="project-open" href="./week5/index.html" aria-label="Open 05 / WEEK 05 project"></a>
         <span class="project-number">05 / WEEK 05</span>
         <span class="project-title">Clocks</span>
         <span class="project-footer">
           EXPLORE <span class="arrow">↗</span>
         </span>
-      </a>
+        <a class="project-note" href="./week5/README.md" aria-label="Week 05 notes">NOTE</a>
+      </article>
 
-      <a class="project" href="./week7/03_75_mapping_multiple_faces/index.html">
+      <article class="project">
+        <a class="project-open" href="./week7/03_75_mapping_multiple_faces/index.html" aria-label="Open 07 / WEEK 07 project"></a>
         <span class="project-number">07 / WEEK 07</span>
         <span class="project-title">Projection Mapping</span>
         <span class="project-footer">
           EXPLORE <span class="arrow">↗</span>
         </span>
-      </a>
+        <a class="project-note" href="./week7/03_75_mapping_multiple_faces/README.md" aria-label="Week 07 notes">NOTE</a>
+      </article>
+
+      <article class="project">
+        <a class="project-open" href="./week8/index.html" aria-label="Open 08 / WEEK 08 project"></a>
+        <span class="project-number">08 / WEEK 08</span>
+        <span class="project-title">Self portrait</span>
+        <span class="project-footer">
+          EXPLORE <span class="arrow">↗</span>
+        </span>
+        <a class="project-note" href="./week8/README.md" aria-label="Week 08 notes">NOTE</a>
+      </article>
+
 
       <div class="project project-upcoming">
         <span class="project-number">06 / NEXT</span>
