@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+canvas {
+  display: block;
+}
+
+#description, #legend {
+  position: fixed;
+  z-index: 1;
+  width: 260px;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+#description {
+  top: 20px;
+  left: 20px;
+}
+
+#legend {
+  right: 20px;
+  bottom: 20px;
+  width: 200px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+h1 {
+  margin: 0 0 10px;
+  font-size: 22px;
+}
+
+h2 {
+  margin: 0 0 8px;
+  font-size: 15px;
+}
+
+p {
+  margin: 8px 0;
+}
+
+#legend p {
+  margin: 6px 0;
+}
+
+a {
+  color: white;
+}
+
+.point-key {
+  color: rgb(255, 98, 0);
+}
+
+.ring-key {
+  color: rgb(110, 180, 160);
+}
+
+#selected-data {
+  min-height: 20px;
+  font-weight: bold;
+}
+

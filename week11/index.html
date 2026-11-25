@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fireball Height Archive</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/p5@2.3.4/lib/p5.min.js"></script>
+  <script src="sketch.js"></script>
+
+</head>
+<body>
+  <div id="description">
+    <h1>Fireball Height Archive</h1>
+    <p>At what altitudes do the recorded fireballs reach peak brightness?</p>
+    <p>Move the mouse over a ring to see its altitude interval and record count.</p>
+  </div>
+
+  <div id="legend">
+    <h2>Legend</h2>
+    <p>
+      Center: Earth.<br>
+      <span class="point-key">Orange point</span>: one record.<br>
+      <span class="ring-key">Ring</span>: a 5 km altitude interval.<br>
+    </p>
+    <p id="selected-data"></p>
+    <p>
+      <a href="https://ssd-api.jpl.nasa.gov/doc/fireball.html">NASA/JPL Fireball Data</a><br>
+      350 records | 2015-2025.<br>
+    </p>
+  </div>
+</body>
+</html>
