@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Focus Mosaic | Final Proposal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <p>Creative Coding · Final Proposal · November 25, 2026</p>
+    <h1>Focus Mosaic</h1>
+    <p>Yuwei Zhang</p>
+    <p>A screen mosaic controlled by physical tiles</p>
+  </header>
+  <main>
+    <section>
+      <h2>What I am revisiting</h2>
+      <p>In my Week 8 Self Portrait, I turned a live webcam image into a grid of colored squares and used clicks to pick a color from the image. I want to make a new work in response to that sketch. This time, a color picked from a real object becomes a single square in a larger mosaic. I am also drawing on Week 7's mapping between physical positions and digital visuals and Week 10's use of visual parts to trigger sounds.</p>
+    </section>
+
+    <section>
+      <h2>What I want to make</h2>
+      <p>Focus Mosaic is a desktop tool people with ADHD who may want a clearer way to start a task or return to it after an interruption. If I need to wash a bowl, I show the bowl to a webcam and choose a small area on its surface. The program samples one representative color from that area and assigns it to a blank 3D-printed tile along with the action “wash this bowl.” The bowl becomes one solid blue square. When I slide the tile into Now, the screen shows that square and the current action. If I pause, moving the tile to Pause keeps both visible so I can return to the same step.</p>
+      <p>When I finish, I place the tile in a rectangular dock with eight rows and eight columns. Each physical slot matches one cell in the 8×8 screen mosaic. A tile fills exactly one screen cell with its solid color. Moving the tile moves the colored square and changes its musical position.</p>
+      <p>The eight rows play Do, Re, Mi, Fa, Sol, La, Ti, and high Do from bottom to top. The eight columns are beats, played from left to right. I can put the blue bowl tile in the first beat on the Fa row, or move it to the third beat on the Sol row. I can rearrange the same tiles to make a different melody. In the first version, each beat plays one note and an empty column is a rest. The board stays quiet during a task. Pressing Play starts the melody and lights up the squares as they sound.</p>
+    </section>
+
+    <section aria-labelledby="sketches">
+      <h2 id="sketches">Interaction sketches</h2>
+      <div class="storyboard">
+        <figure>
+          <img src="images/capture-color.svg" width="360" height="200" alt="A selected area of a blue bowl is sampled into exactly one solid blue square.">
+          <figcaption><strong>Capture.</strong> Sample a patch of the bowl and assign one solid color to a tile.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/pause-and-resume.svg" width="360" height="200" alt="The marked physical tile sits in Pause. The screen keeps one blue square and the label Wash this bowl.">
+          <figcaption><strong>Keep your place.</strong> The tile moves between Now and Pause while the screen keeps the task and its color.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/fill-the-mosaic.svg" width="360" height="200" alt="An eight-by-eight physical dock and an eight-by-eight screen grid. Two plain tiles appear as two solid-color cells on screen.">
+          <figcaption><strong>Fill the mosaic.</strong> Each finished task adds one large square to the matching cell of the 8×8 screen grid.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/compose-a-melody.svg" width="360" height="200" alt="Eight rows run from low Do at the bottom to high Do at the top. Eight columns are playback beats. The blue square plays Fa on beat one.">
+          <figcaption><strong>Compose.</strong> Move a tile up or down to change the pitch, or left or right to change the beat.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>Build plan and challenges</h2>
+      <ol>
+        <li><strong>By December 2.</strong> Adapt the Week 8 webcam sketch to sample a single color from a selected area. Build an 8×8 screen mosaic in p5.js and test the physical layout with paper tiles.</li>
+        <li><strong>By December 9.</strong> Print three sample tiles and a low-profile dock. Give each tile a distinct black-and-white marker and use a fixed overhead webcam to match the markers to the dock slots. Test whether the camera can tell neighboring slots apart and hold a tile's position while a hand briefly covers its marker.</li>
+        <li><strong>By December 16.</strong> Add playback across the eight beats and test two melodies made with the same tiles. Ask classmates to resume a task after a simulated interruption. Prepare keyboard controls for the live demo. I will comment on how I sample color, map the dock to the screen, and schedule notes, and credit any code I adapt.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>References</h2>
+      <ul>
+        <li>My earlier work. <a href="https://yz13019-cpu.github.io/CC-yz13019/week8/">Week 8 Self Portrait</a>, <a href="https://yz13019-cpu.github.io/CC-yz13019/week7/03_75_mapping_multiple_faces/">Week 7 Projection Mapping</a>, and <a href="https://yz13019-cpu.github.io/CC-yz13019/week10/">Week 10 Sound Visualization</a></li>
+        <li>Examples of adjusting an environment to reduce distractions and make room for breaks. <a href="https://www.nice.org.uk/guidance/ng87/chapter/recommendations">NICE ADHD guidance</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer><p>ChatGPT helped draft this proposal and create the storyboard. The SVG illustrations show the positions of tiles in the dock and on the screen.</p></footer>
+</body>
+</html>

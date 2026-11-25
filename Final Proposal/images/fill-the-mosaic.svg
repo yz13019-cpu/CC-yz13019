@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200">
+  <title>An eight-by-eight physical dock and an eight-by-eight screen grid. Two plain tiles appear as two solid-color cells on screen.</title>
+  <rect x="12" y="15" width="336" height="170" rx="10" fill="#fcfaf3" />
+  <text x="86" y="39" text-anchor="middle" fill="#344338" font-family="Arial,sans-serif" font-size="11">Physical dock</text>
+  <text x="268" y="39" text-anchor="middle" fill="#344338" font-family="Arial,sans-serif" font-size="11">Screen mosaic</text>
+  <g data-grid-cell="r1c1">
+    <rect x="30" y="49" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r1c2">
+    <rect x="44" y="49" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r1c3">
+    <rect x="58" y="49" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r1c4">
+    <rect x="72" y="49" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r1c5">
+    <rect x="86" y="49" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r1c6">
+    <rect x="100" y="49" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r1c7">
+    <rect x="114" y="49" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r1c8">
+    <rect x="128" y="49" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r2c1">
+    <rect x="30" y="63" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r2c2">
+    <rect x="44" y="63" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r2c3">
+    <rect x="58" y="63" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r2c4">
+    <rect x="72" y="63" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r2c5">
+    <rect x="86" y="63" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r2c6">
+    <rect x="100" y="63" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r2c7">
+    <rect x="114" y="63" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r2c8">
+    <rect x="128" y="63" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r3c1">
+    <rect x="30" y="77" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r3c2">
+    <rect x="44" y="77" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r3c3">
+    <rect x="58" y="77" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r3c4">
+    <rect x="72" y="77" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r3c5" data-filled="true">
+    <rect x="86" y="77" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+    <rect x="87" y="78" width="10" height="10" rx="2" fill="#fffdf8" stroke="#587462" />
+    <rect x="89" y="80" width="2" height="2" rx="0" fill="#314839" />
+  </g>
+  <g data-grid-cell="r3c6">
+    <rect x="100" y="77" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r3c7">
+    <rect x="114" y="77" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r3c8">
+    <rect x="128" y="77" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r4c1">
+    <rect x="30" y="91" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r4c2">
+    <rect x="44" y="91" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r4c3">
+    <rect x="58" y="91" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r4c4">
+    <rect x="72" y="91" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r4c5">
+    <rect x="86" y="91" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r4c6">
+    <rect x="100" y="91" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r4c7">
+    <rect x="114" y="91" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r4c8">
+    <rect x="128" y="91" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r5c1" data-filled="true">
+    <rect x="30" y="105" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+    <rect x="31" y="106" width="10" height="10" rx="2" fill="#fffdf8" stroke="#587462" />
+    <rect x="33" y="108" width="2" height="2" rx="0" fill="#314839" />
+  </g>
+  <g data-grid-cell="r5c2">
+    <rect x="44" y="105" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r5c3">
+    <rect x="58" y="105" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r5c4">
+    <rect x="72" y="105" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r5c5">
+    <rect x="86" y="105" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r5c6">
+    <rect x="100" y="105" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r5c7">
+    <rect x="114" y="105" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r5c8">
+    <rect x="128" y="105" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r6c1">
+    <rect x="30" y="119" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r6c2">
+    <rect x="44" y="119" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r6c3">
+    <rect x="58" y="119" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r6c4">
+    <rect x="72" y="119" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r6c5">
+    <rect x="86" y="119" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r6c6">
+    <rect x="100" y="119" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r6c7">
+    <rect x="114" y="119" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r6c8">
+    <rect x="128" y="119" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r7c1">
+    <rect x="30" y="133" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r7c2">
+    <rect x="44" y="133" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r7c3">
+    <rect x="58" y="133" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r7c4">
+    <rect x="72" y="133" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r7c5">
+    <rect x="86" y="133" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r7c6">
+    <rect x="100" y="133" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r7c7">
+    <rect x="114" y="133" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r7c8">
+    <rect x="128" y="133" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r8c1">
+    <rect x="30" y="147" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r8c2">
+    <rect x="44" y="147" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r8c3">
+    <rect x="58" y="147" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r8c4">
+    <rect x="72" y="147" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r8c5">
+    <rect x="86" y="147" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r8c6">
+    <rect x="100" y="147" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r8c7">
+    <rect x="114" y="147" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r8c8">
+    <rect x="128" y="147" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <path d="M150 101h44m-8-7 8 7-8 7" fill="none" stroke="#46694e" stroke-width="2" />
+  <g data-grid-cell="r1c1">
+    <rect x="212" y="49" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r1c2">
+    <rect x="226" y="49" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r1c3">
+    <rect x="240" y="49" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r1c4">
+    <rect x="254" y="49" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r1c5">
+    <rect x="268" y="49" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r1c6">
+    <rect x="282" y="49" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r1c7">
+    <rect x="296" y="49" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r1c8">
+    <rect x="310" y="49" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r2c1">
+    <rect x="212" y="63" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r2c2">
+    <rect x="226" y="63" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r2c3">
+    <rect x="240" y="63" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r2c4">
+    <rect x="254" y="63" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r2c5">
+    <rect x="268" y="63" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r2c6">
+    <rect x="282" y="63" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r2c7">
+    <rect x="296" y="63" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r2c8">
+    <rect x="310" y="63" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r3c1">
+    <rect x="212" y="77" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r3c2">
+    <rect x="226" y="77" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r3c3">
+    <rect x="240" y="77" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r3c4">
+    <rect x="254" y="77" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r3c5" data-filled="true">
+    <rect x="268" y="77" width="12" height="12" rx="1" fill="#d99054" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r3c6">
+    <rect x="282" y="77" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r3c7">
+    <rect x="296" y="77" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r3c8">
+    <rect x="310" y="77" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r4c1">
+    <rect x="212" y="91" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r4c2">
+    <rect x="226" y="91" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r4c3">
+    <rect x="240" y="91" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r4c4">
+    <rect x="254" y="91" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r4c5">
+    <rect x="268" y="91" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r4c6">
+    <rect x="282" y="91" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r4c7">
+    <rect x="296" y="91" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r4c8">
+    <rect x="310" y="91" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r5c1" data-filled="true">
+    <rect x="212" y="105" width="12" height="12" rx="1" fill="#5287b3" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r5c2">
+    <rect x="226" y="105" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r5c3">
+    <rect x="240" y="105" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r5c4">
+    <rect x="254" y="105" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r5c5">
+    <rect x="268" y="105" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r5c6">
+    <rect x="282" y="105" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r5c7">
+    <rect x="296" y="105" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r5c8">
+    <rect x="310" y="105" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r6c1">
+    <rect x="212" y="119" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r6c2">
+    <rect x="226" y="119" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r6c3">
+    <rect x="240" y="119" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r6c4">
+    <rect x="254" y="119" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r6c5">
+    <rect x="268" y="119" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r6c6">
+    <rect x="282" y="119" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r6c7">
+    <rect x="296" y="119" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r6c8">
+    <rect x="310" y="119" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r7c1">
+    <rect x="212" y="133" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r7c2">
+    <rect x="226" y="133" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r7c3">
+    <rect x="240" y="133" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r7c4">
+    <rect x="254" y="133" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r7c5">
+    <rect x="268" y="133" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r7c6">
+    <rect x="282" y="133" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r7c7">
+    <rect x="296" y="133" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r7c8">
+    <rect x="310" y="133" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r8c1">
+    <rect x="212" y="147" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r8c2">
+    <rect x="226" y="147" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r8c3">
+    <rect x="240" y="147" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r8c4">
+    <rect x="254" y="147" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r8c5">
+    <rect x="268" y="147" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r8c6">
+    <rect x="282" y="147" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r8c7">
+    <rect x="296" y="147" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+  <g data-grid-cell="r8c8">
+    <rect x="310" y="147" width="12" height="12" rx="1" fill="#e6ebe2" stroke="#abb8aa" />
+  </g>
+</svg>

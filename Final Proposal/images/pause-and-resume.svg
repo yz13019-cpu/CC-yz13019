@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200">
+  <title>The marked physical tile sits in Pause. The screen keeps one blue square and the label Wash this bowl.</title>
+  <rect x="12" y="15" width="336" height="170" rx="10" fill="#fcfaf3" />
+  <rect x="22" y="55" width="108" height="85" rx="6" fill="#e9e7dd" stroke="#9ea695" />
+  <rect x="34" y="77" width="37" height="40" rx="4" fill="#faf8ef" stroke="#a0aa9d" />
+  <rect x="82" y="77" width="37" height="40" rx="4" fill="#faf8ef" stroke="#a0aa9d" />
+  <text x="52" y="72" text-anchor="middle" fill="#344338" font-family="Arial,sans-serif" font-size="11">Now</text>
+  <text x="101" y="72" text-anchor="middle" fill="#344338" font-family="Arial,sans-serif" font-size="11">Pause</text>
+  <rect x="86" y="82" width="29" height="29" rx="2" fill="#fffdf8" stroke="#587462" />
+  <rect x="88" y="84" width="7" height="7" rx="0" fill="#314839" />
+  <path d="M145 98h45m-8-7 8 7-8 7" fill="none" stroke="#46694e" stroke-width="2" />
+  <rect x="204" y="38" width="117" height="125" rx="6" fill="#f1f4ee" stroke="#7a8979" />
+  <rect x="241" y="55" width="42" height="42" rx="3" fill="#5287b3" />
+  <text x="262" y="120" text-anchor="middle" fill="#344338" font-family="Arial,sans-serif" font-size="11">Wash this bowl</text>
+  <text x="262" y="140" text-anchor="middle" fill="#344338" font-family="Arial,sans-serif" font-size="11">Paused</text>
+</svg>
